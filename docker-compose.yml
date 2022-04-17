@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    # Dockerfileの場所
+    build: ./docker
+    working_dir: /workspace
+    command: yarn run dev
+    volumes:
+      - ./src:/workspace/
+    ports:
+      - 3000:3000
