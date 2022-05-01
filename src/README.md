@@ -1,4 +1,4 @@
-# sample_project
+# ssg-microcms
 
 ## Build Setup
 

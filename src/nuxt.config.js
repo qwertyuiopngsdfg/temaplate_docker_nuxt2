@@ -6,11 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - sample_project',
-    title: 'sample_project',
-    htmlAttrs: {
-      lang: 'en',
-    },
+    titleTemplate: '%s - ssg-microcms',
+    title: 'ssg-microcms',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -41,6 +38,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // https://go.nuxtjs.dev/pwa
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
